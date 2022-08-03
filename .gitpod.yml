@@ -3,11 +3,11 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - name: Install Prerequisites
-    command: ./install.sh
-  - name: Run Neovim make
-    command: make CMAKE_BUILD_TYPE=Debug CMAKE_INSTALL_PREFIX=./nvim-demo
-  - name: Install Neovim
-    command: sudo make install
+   - name: Install Prerequisites
+     command: ./install.sh
+#    - name: Run Neovim make
+#      command: make CMAKE_BUILD_TYPE=Debug CMAKE_INSTALL_PREFIX=./nvim-demo
+#    - name: Install Neovim
+#      command: sudo make install
 
 
